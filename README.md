@@ -139,9 +139,9 @@ ecommerce>
 
 ### Importante prueba de Permisos de Usuarios !!!
 
-##Previamente verificar de tener creado un usuario con permisos de lectura/escritura, para no tener errores luego y no tener que formatear mongoDB.
+## Previamente verificar de tener creado un usuario con permisos de lectura/escritura, para no tener errores luego y no tener que formatear mongoDB.
 
-##Si la prueba es en localhost, deberan buscar el archivo .cfg (configuracion) puede estar como mongod.cfg (versiones 6.0) de mongoDB dentro de la carpeta /bin, abrirlo y sacarle el comentario a security y agregando la linea authorization:enabled con su respectiva sangria.
+## Si la prueba es en localhost, deberan buscar el archivo .cfg (configuracion) puede estar como mongod.cfg (versiones 6.0) de mongoDB dentro de la carpeta /bin, abrirlo y sacarle el comentario a security y agregando la linea authorization:enabled con su respectiva sangria.
 ```
 security:
   authorization: enabled
