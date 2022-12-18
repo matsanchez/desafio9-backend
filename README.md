@@ -137,4 +137,17 @@ MongoServerError: not authorized on ecommerce to execute command { insert: "prod
 ecommerce>
 ```
 
+### Importante prueba de Permisos de Usuarios !!!
+
+##Previamente verificar de tener creado un usuario con permisos de lectura/escritura, para no tener errores luego y no tener que formatear mongoDB.
+
+##Si la prueba es en localhost, deberan buscar el archivo .cfg (configuracion) puede estar como mongod.cfg (versiones 6.0) de mongoDB dentro de la carpeta /bin, abrirlo y sacarle el comentario a security y agregando la linea authorization:enabled con su respectiva sangria.
+```
+security:
+  authorization: enabled
+```
+
+Luego detener el servicio MongoDB y volver a iniciarlo, para que tengan efectos los cambios.
+
+
 Autor: Matias Sanchez
