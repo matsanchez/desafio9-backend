@@ -15,8 +15,8 @@ use ecommerce
 > ( 2 ) - Crear colecciones "mensajes" y "productos":
 
 ```
-<span style="color:red">db.createCollection('mensajes')
-db.createCollection('productos')</span>
+db.createCollection('mensajes')
+db.createCollection('productos')
 ```
 
 > ( 3 ) - Agregar 10 documentos con valores distintos en cada una de las colecciones:
